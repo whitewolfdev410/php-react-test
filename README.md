@@ -4,8 +4,9 @@ This is a PHP-based market system that allows for the registration of products, 
 
 ## Requirements
 
-- PHP 7.4 or higher
-- PostgreSQL or MSSQL Server
+- PHP 8.2.5
+- Node 19.8.1
+- PostgreSQL Server
 
 ## Installation
 
