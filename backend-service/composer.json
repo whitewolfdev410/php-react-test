@@ -1,0 +1,21 @@
+{
+    "name": "israelmanzi/php-store",
+    "type": "project",
+    "license": "Apache License",
+    "autoload": {
+        "psr-4": {
+            "Israelmanzi\\PhpStore\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Israel MANZI"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.11",
+        "league/plates": "^3.5",
+        "vlucas/valitron": "^1.4",
+        "slim/psr7": "^1.6"
+    }
+}
