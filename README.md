@@ -13,19 +13,21 @@ This is a PHP-based market system that allows for the registration of products, 
 1. Clone the repository:
 
 ```
-git clone https://github.com/mugishap/react-php-test.git
+git clone https://github.com/whitewolfdev410/php-react-test.git
 ```
 
-
 2. Set up the database:
+
 - Create a new database in your PostgreSQL or MSSQL Server.
 - Import the provided database backup file located at the root of the repository.
 
 3. Configuration:
+
 - Copy the `config/config.example.php` file and rename it to `config/config.php`.
 - Update the database connection details in `config/config.php` with your database credentials.
 
 4. a) Start the PHP server:
+
 - Navigate to the project's backend root directory.
 - Run the following command to start the PHP server:
 
@@ -34,6 +36,7 @@ php -S localhost:8080
 ```
 
 4. b) Start the React Frontend server:
+
 - Navigate to the project's frontend root directory.
 - Run the following command to start the PHP server:
 
@@ -41,8 +44,8 @@ php -S localhost:8080
 npm run dev
 ```
 
-
 5. Access the application:
+
 - Open your web browser and visit `http://localhost:5173` to access the market system.
 
 ## Additional Notes
@@ -70,4 +73,3 @@ Please submit the following for analysis:
 - Before submitting, perform a `pg_restore` to verify if the database was exported correctly.
 
 Thank you for taking up this challenge! We look forward to reviewing your project and assessing your technical skills.
-
