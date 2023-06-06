@@ -13,6 +13,7 @@ This is a PHP-based market system that allows for the registration of products, 
 1. Clone the repository:
 
 ```
+You can get the codebase from this command
 git clone https://github.com/whitewolfdev410/php-react-test.git
 ```
 
